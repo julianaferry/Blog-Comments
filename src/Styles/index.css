@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('background.jpg');
+  background-repeat:repeat-y;
+  background-size: cover;
+}
+.MuiPaper-root-012.MuiPaper-elevation0-014
+
+{
+  background-color:#FF9CD3;
+}
+
+.MuiPaper-root-039,
+.MuiPaper-root-0255  {
+  background-color:transparent!important;
+}
+.MuiPaper-elevation1-042,
+.MuiPaper-root-075{
+  box-shadow: transparent!important;
+}
+.showPost{
+  background-color:#FF9093!important;
+}
+.MuiListItem-root-0146 {
+  background-color: #f5e439;
+}

@@ -1,21 +1,32 @@
 {
-  "name": "reddit-clone-server",
-  "version": "0.0.1",
-  "description": "A server for the Udacity Reddit Clone project for ReactND",
-  "main": "index.js",
-  "keywords": [
-    "udacity",
-    "redux",
-    "readable",
-    "react"
-  ],
-  "author": "David Harris",
-  "license": "ISC",
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "body-parser": "^1.17.1",
-    "cors": "^2.8.3",
-    "dotenv": "^4.0.0",
-    "express": "^4.15.2",
-    "clone": "^2.1.1"
+    "@material-ui/core": "^3.0.3",
+    "@material-ui/icons": "^3.0.1",
+    "moment": "^2.22.2",
+    "npm": "^6.4.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.5.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.4.0-alpha.1",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "1.0.11",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
+    "render-if": "^0.1.1",
+    "styled-components": "^3.4.5",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.6.0"
   }
 }
